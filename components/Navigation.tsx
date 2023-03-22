@@ -111,9 +111,9 @@ export default function Navigation() {
 	return (
 		<nav className="flex-1 self-stretch mt-5 px-6">
 			<div className="hidden items-center -mt-4 mb-10 md:flex">
-				<a href="/" className="hidden md:block">
+				<NavigationLink href="/" className="hidden md:block">
 					<Discord className="w-9/12 text-black dark:text-white" />
-				</a>
+				</NavigationLink>
 				<ThemeSwitcher />
 			</div>
 
