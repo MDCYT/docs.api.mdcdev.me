@@ -7,11 +7,11 @@ interface OpenGraphProps {
 }
 
 export default function OpenGraph({
-	title = "Discord Developers",
-	description = "👾 BOTS BOTS BOTS 👾",
+	title = "api.mdcdev.me Documentation",
+	description = "Documentation for the api.mdcdev.me API",
 }: OpenGraphProps) {
 	const router = useRouter();
-	const url = `https://discord.com/developers/docs${router.asPath}`;
+	const url = `https://api.mdcdev.me${router.asPath}`;
 
 	return (
 		<Head>
@@ -19,12 +19,12 @@ export default function OpenGraph({
 
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary" key="twitter-card" />
-			<meta name="twitter:creator" content="@discord" key="twitter-handle" />
+			<meta name="twitter:creator" content="@MDC_DEV" key="twitter-handle" />
 
 			{/* Open Graph */}
 			<meta property="og:url" content={url} key="og-url" />
 			<meta property="og:image" content="/opengraph.png" key="og-image" />
-			<meta property="og:site_name" content="Discord Developers" key="og-site-name" />
+			<meta property="og:site_name" content="api.mdcdev.me" key="og-site-name" />
 			<meta property="og:title" content={title} key="og-title" />
 			<meta property="og:description" content={description} key="og-desc" />
 		</Head>
