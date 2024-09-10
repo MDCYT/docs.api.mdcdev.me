@@ -117,15 +117,9 @@ export default function Navigation() {
 				<ThemeSwitcher />
 			</div>
 
-			<NavigationSection title="Applications">
-				<NavigationLink href="https://discord.com/developers/applications" className="text-lg">
-					Applications
-				</NavigationLink>
-				<NavigationLink href="https://discord.com/developers/teams" className="text-lg">
-					Teams
-				</NavigationLink>
-				<NavigationLink href="https://discord.gg/discord-developers" className="text-lg">
-					Join our Developer Discord!
+			<NavigationSection title="Links">
+				<NavigationLink href="https://discord.gg/dCUCyFmwEmg" className="text-lg">
+					Join our Official Discord
 				</NavigationLink>
 			</NavigationSection>
 
