@@ -35,7 +35,7 @@ export default function NotFound() {
 								404: Page not found
 							</h1>
 							<p className="mt-1 text-center dark:text-text-dark text-text-light">
-								This Bot Doesn&apos;t have that Intent!
+								We couldn&apos;t find the page you were looking for.
 							</p>
 
 							<LinkList className="mt-10">
@@ -48,21 +48,21 @@ export default function NotFound() {
 								<LinkPanel title="Reference" href="/reference">
 									Learn more about the Discord API and philosophy, and how to write your own bot!
 								</LinkPanel>
-								<LinkPanel title="Developer Discord" href="https://discord.gg/discord-developers">
-									Join us in our official Discord Developer community server!
+								<LinkPanel title="Developer Discord" href="https://discord.gg/dCUCyFmwEmg">
+									Join us in our Discord server to ask questions and get help!
 								</LinkPanel>
 							</LinkList>
 						</div>
 					</main>
 
 					<h2 className="mb-8 mt-12 text-center text-black dark:text-white text-2xl font-extrabold sm:text-3xl">
-						Learn about Slash Commands while you&apos;re here!
+						Sooo, you are still here?
 					</h2>
 
-					<YouTubeEmbed src="https://www.youtube.com/embed/4XxcpBxSCiU" />
+					<YouTubeEmbed src="https://www.youtube.com/embed/JUXM2jCxTqY?loop=1&rel=0&cc_load_policy=1&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1&playlist=JUXM2jCxTqY" />
 
 					<p className="mt-4 text-center dark:text-text-dark text-text-light text-xs">
-						We stan Muffins for making this amazing video
+						Listen to this song while you figure out where to go next!
 					</p>
 				</div>
 			</div>
